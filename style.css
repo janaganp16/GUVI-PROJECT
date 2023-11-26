@@ -1,0 +1,77 @@
+body{
+    padding:50px;
+    background-image: url("download.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: white;
+}
+.form-group{
+    margin-bottom:30px;
+    
+}
+
+h1{
+    text-align: center;
+    margin: 40px;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    width: 270px;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(127, 0, 255);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="submit"]:hover{
+    color: white;
+    background: rgb(230, 0, 255);
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+.form-btn{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+
+}
+h4{
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
